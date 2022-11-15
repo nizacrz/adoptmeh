@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7f0ec;
+}
+
+.container {
+    width: 825px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 50px 50px -50px #a0643a;
+}
+
+.container .myform {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    width: 270px;
+    margin-right: 55px;
+}
+
+.container .myform h2 {
+    color: #472d15;
+    margin-bottom: 20px;
+    font-weight: bold !important;
+    font-family: 'EB Garamond', serif !important;
+}
+
+.container .myform input {
+    border: none;
+    outline: none;
+    border-radius: 0;
+    width: 100%;
+    border-bottom: 2px solid #1c1c1e;
+    margin-bottom: 25px;
+    padding: 7px 0;
+    font-size: 14px;
+}
+
+.container .myform button {
+    color: white;
+    font-weight: bold !important;
+    border: none;
+    outline: none;
+    background-color: #472d15;
+    font-size: 18px;
+    padding: 5px 12px;
+    font-weight: 500;
+    border-radius: 5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    box-shadow: 0 .1rem .3rem rgba(0, 0, 0, .3);
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.myform button:hover {
+    background-color: #6f4024;
+    color: white;
+}
+
+.container .image img {
+    width: 450px !important;
+}
+
+.myform i {
+    margin-left: -30px;
+    cursor: pointer;
+}
